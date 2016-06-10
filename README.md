@@ -1,1 +1,1 @@
-# Sit-on-chair-template
+# Sit on chair template
