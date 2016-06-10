@@ -1,0 +1,70 @@
+html
+{
+	font-family: 'Raleway', sans-serif;
+}
+/*---------- HEADER ----------*/
+header
+{
+	background-color: #000;
+}
+
+.clearfix
+{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.logo
+{
+	color: white;
+	text-transform: uppercase;
+	display: inline-block;
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 15px 0;
+}
+
+.logo span
+{
+	color: #24BAA0;
+	font-weight: 700;
+}
+
+nav
+{
+	display: inline-block;
+	float: right;
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+nav a
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 16px;
+	display: block;
+	padding: 15px 25px;
+}
+
+nav a:hover
+{
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+}
+
