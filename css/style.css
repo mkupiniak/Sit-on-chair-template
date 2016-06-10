@@ -68,3 +68,56 @@ nav a:hover
 	cursor: pointer;
 }
 
+.mainList > li
+{
+	position: relative;
+}
+
+.mainList > li > ul
+{
+	position: absolute;
+}
+
+.hoverList
+{
+	color: #fff;
+	background-color: #000;
+	display: none;
+}
+
+.mainList > li:hover > ul
+{
+	display: block;
+}
+
+.hoverList li
+{
+	width: 100%;
+}
+
+/*---------- HEADER ----------*/
+
+/*background: linear-gradient(0deg, rgba(201,203,210,1) 0%, rgba(249,249,249,1) 100%);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
