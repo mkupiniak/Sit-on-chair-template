@@ -7,4 +7,5 @@ Menu hoovers and transitions are made with CSS.
 Slider and form checkbox is made with JavaScript.
 
 Here is the PSD file I based on:
+
 ![PSD Template](/images/warsztat.jpg)
