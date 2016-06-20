@@ -1,37 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Mateusz Kupiniak">
-	<title>Sit on our chair</title>
-	<!-- stylesheets -->
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
-	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700&subset=latin,latin-ext" rel='stylesheet' type='text/css'>
-</head>
-<body>
-	<!-- HEADER -->
-	<header class="clearfix">
-		<div class="container">
-			<div class="logo">sit <span>on</span> chair</div>
-			<nav>
-				<ul class="mainList">
-					<li><a href="#">o firmie</a>
-						<ul class="hoverList">
-							<li><a href="#">Aktualności</a></li>
-							<li><a href="#">Nasz team</a></li>
-							<li><a href="#">Historia</a></li>
-						</ul>
-					</li>
-					<li><a href="#">galeria</a></li>
-					<li><a href="#">kontakt</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	
 
-	
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mateusz Kupiniak">
+    <title>Sit on our chair</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&subset=latin,latin-ext" rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="logo">sit <span>on</span> chair</div>
+            <nav>
+                <ul class="mainList">
+                    <li><a href="#">o firmie</a>
+                        <ul class="hoverList">
+                            <li class="arrow-up"></li>
+                            <li><a href="#">Aktualności</a></li>
+                            <li><a href="#">Nasz team</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">galeria</a></li>
+                    <li><a href="#">kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- SLIDER -->
+    <section id="slider">
+        <div class="container">
+            <div class="leftArr"><a href="#">&lt;</a></div>
+            <div class="slideShow">
+                <div class="slideImage">
+                    <img src="images/1.png" alt="black chair">
+                </div>
+                <div class="slideText">
+                    <h1>Sit <span>on</span> our <span>chair</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum unde earum, sit nihil reprehenderit voluptate harum, minima doloribus at error voluptatem tenetur.</p>
+                    <div class="slideTextButton"><a href="#">Zobacz więcej</a></div>
+                </div>
+            </div>
+            <div class="rightArr"><a href="#">&gt;</a></div>
+        </div>
+    </section>
+    <!-- THUMBNAILS -->
+    <section id="thumbnails">
+        <div class="container">
+            <div class="thumbnail">
+                <figure>
+                    <div class="thumbDesc">
+                        <h3>Chair CLAIR</h3>
+                    </div>
+                    <img src="images/box1.jpg" alt="chair flower">
+                    <figcaption>
+                        <h3>Finds all inputs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae libero neque ipsam suscipit accusantium, odio necessitatibus unde quibusdam doloribus!</p>
+                        <p>Assumenda suscipit, itaque sunt culpa vitae corrupti incidunt maiores fugiat!</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="thumbnail">
+                <figure>
+                    <div class="thumbDesc">
+                        <h3>Chair MARGARITA</h3>
+                    </div>
+                    <img src="images/box2.jpg" alt="sleeping baby">
+                    <figcaption>
+                        <h3>Finds all inputs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae libero neque ipsam suscipit accusantium, odio necessitatibus unde quibusdam doloribus!</p>
+                        <p>Assumenda suscipit, itaque sunt culpa vitae corrupti incidunt maiores fugiat!</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="thumbnail">
+                <figure>
+                    <div class="thumbDesc">
+                        <h3>Chair CLAIR</h3>
+                    </div>
+                    <img src="images/box1.jpg" alt="chair flower">
+                    <figcaption>
+                        <h3>Finds all inputs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae libero neque ipsam suscipit accusantium, odio necessitatibus unde quibusdam doloribus!</p>
+                        <p>Assumenda suscipit, itaque sunt culpa vitae corrupti incidunt maiores fugiat!</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- PRICE LIST -->
+    <section id="priceList">
+        <div class="container">
+            <div class="title">
+                <h3>Cennik</h3>
+            </div>
+            <!-- 1st PRICE PLAN -->
+            <div class="pricePlan">
+                <div class="bigCircle">
+                    <div class="smallCircle"></div>
+                </div>
+                <h4>Basic plan</h4>
+                <div class="price">
+                    <p>85<sup>99</sup></p>
+                    <p>PLN/MSC</p>
+                </div>
+                <div class="services">
+                    <p>Zakup towaru + dowóz</p>
+                    <p>Serwis</p>
+                </div>
+                <div class="joinUs">Dołącz</div>
+            </div>
+            <!-- 2nd PRICE PLAN -->
+            <div class="pricePlan">
+                <div class="bigCircle">
+                    <div class="smallCircle"></div>
+                </div>
+                <h4>Standard plan</h4>
+                <div class="price">
+                    <p>95<sup>99</sup></p>
+                    <p>PLN/MSC</p>
+                </div>
+                <div class="services">
+                    <p>Zakup towaru + dowóz</p>
+                    <p>Serwis</p>
+                    <p>Gwarancja 5 lat</p>
+                </div>
+                <div class="joinUs">Dołącz</div>
+            </div>
+            <!-- 3rd PRICE PLAN -->
+            <div class="pricePlan">
+                <div class="bigCircle">
+                    <div class="smallCircle"></div>
+                </div>
+                <h4>Advanced plan</h4>
+                <div class="price">
+                    <p id="priceLong">211<sup>00</sup></p>
+                    <p>PLN/MSC</p>
+                </div>
+                <div class="services">
+                    <p>Zakup towaru + dowóz</p>
+                    <p>Serwis</p>
+                    <p>Gwarancja 6 lat</p>
+                    <p>Porady projektanta</p>
+                </div>
+                <div class="joinUs">Dołącz</div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="title">
+                <h3>Kontakt</h3>
+            </div>
+            <div class="formLeft">
+                <form id="usrform" action="#">
+                    <input type="text" name="firstname" placeholder="Imię" />
+                    <input type="text" name="email" placeholder="email" />
+                    <textarea name="comment" form="usrform" placeholder="Wiadomość"></textarea>
+                </form>
+            </div>
+            <div class="formRight">
+                <img src="images/2.png" alt="red chair" />
+                <div id="condition"><img class="invisible" src="images/form_ok.jpg" alt="check"></div>
+                <p>Zgadzam się na przetwarzanie danych osobowych</p>
+                <div id="submit">Wyślij</div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="copy">
+                <p>Copyright 2016 | All rights Reserved - Sit On Chair</p>
+            </div>
+            <div class="logo2">
+                <h5>sit <span>on</span> chair</h5>
+            </div>
+            <div class="social">
+                <a href="#"><img src="images/flickr.png" alt="flickr"></a>
+                <a href="#"><img src="images/vimeo.png" alt="vimeo"></a>
+                <a href="#"><img src="images/pinterest.png" alt="pinterest"></a>
+                <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
