@@ -44,10 +44,6 @@ nav {
     float: right;
 }
 
-.mainList > li {
-    display: inline-block;
-}
-
 .mainList > li > a {
     color: #fff;
     text-decoration: none;
@@ -67,6 +63,7 @@ nav {
     text-transform: uppercase;
     font-weight: 700;
     position: relative;
+    display: inline-block;
 }
 
 .hoverList {
@@ -106,7 +103,7 @@ nav {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 53px;
+    left: 50px;
 }
 
 .hoverList > li {
