@@ -153,6 +153,66 @@
             </div>
         </div>
     </section>
+    <!-- MAKE UP YOUR CHAIR -->
+    <section id="makechair">
+        <div class="container">
+            <div class="title">
+                <h3>Skomponuj swoje krzesło</h3>
+            </div>
+            <div class="title">
+                <h3>Podsumowanie</h3>
+            </div>
+            <div style="clear:both;"></div>
+            <!-- LEFT DIV -->
+            <div class="options position">
+                <select name="sort" id="chairSort">
+                    <option value="" disabled selected>Select chair</option>
+                    <option value="clair">Chair Clair</option>
+                    <option value="margarita">Chair Margarita</option>
+                    <option value="selena">Chair Selena</option>
+                </select>
+                <select name="color" id="chairColor">
+                    <option value="" disabled selected>Select color</option>
+                    <option value="red">czerwony</option>
+                    <option value="black">czarny</option>
+                    <option value="orange">pomarańczowy</option>
+                    <option value="white">biały</option>
+                </select>
+                <select name="fabric" id="chairFabric">
+                    <option value="" disabled selected>Select fabric</option>
+                    <option value="fabric">tkanina</option>
+                    <option value="leather">skóra</option>
+                    <option value="suede">zamsz</option>
+                </select>
+                <div class="transport" id="transport"></div>
+                <span>Add transport</span>
+                <span onclick="location.reload();">Wyczyść</span>
+            </div>
+            <!-- CENTRAL DIV -->
+            <div class="photo position">
+                <img src="images/2.png" alt="Chair Clair" />
+            </div>
+            <!-- RIGHT DIV -->
+            <div class="summary position">
+                <div id="properties" class="summaryLeft">
+                    <h3></h3>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div id="values" class="summaryRight">
+                    <h3></h3>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="summarySum">
+                    <h4>SUMA<span id="summarySum">-</span> zł</h4>
+                </div>
+                <input type="submit" />
+            </div>
+        </div>
+    </section>
     <!-- CONTACT -->
     <section id="contact">
         <div class="container">

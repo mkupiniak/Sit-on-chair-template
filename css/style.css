@@ -298,7 +298,7 @@ figcaption p {
     font-size: 18px;
     color: #000;
     display: inline-block;
-    padding: 10px 240px 5px 0;
+    padding: 10px 240px 2px 0;
     border-bottom: 5px solid #24BAA0;
 }
 
@@ -418,10 +418,168 @@ figcaption p {
 }
 
 
+/*---------- MAKE UP YOUR CHAIR ----------*/
+
+
+/*----- LEFT DIV WITH OPTIONS -----*/
+
+#makechair .container {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#makechair .title h3 {
+    padding: 10px 42px 2px 0;
+}
+
+#makechair > div > div:nth-child(1) {
+    float: left;
+}
+
+#makechair > div > div:nth-child(2) {
+    float: right;
+}
+
+#makechair >div > div.position {
+    float: left;
+    width: 32%;
+    height: 216px;
+    margin-right: 2%;
+}
+
+#makechair > div > div.summary.position {
+    margin-right: 0;
+}
+
+#makechair select {
+    border: 1px solid #24baa0;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+select > option:first-child {
+    color: #ccc;
+}
+
+#makechair .transport {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #24baa0;
+    float: left;
+    margin-top: 26px;
+}
+
+.transportCheck {
+    background: url(../images/form_ok.jpg) no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+#makechair span {
+    top: 34px;
+    position: relative;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+/*----- CENTER DIV WITH IMAGE -----*/
+
+#makechair > div > div.photo.position {
+    text-align: center;
+}
+
+#makechair > div > div.photo.position > img {
+    display: inline-block;
+}
+
+
+/*----- RIGHT DIV WITH SUMMARY -----*/
+
+#makechair > div > div:nth-child(2) > h3 {
+    padding: 10px 2px 2px 42px;
+}
+
+#makechair div.summaryLeft {
+    float: left;
+    height: 130px;
+    width: 60%;
+}
+
+#makechair div.summaryRight {
+    float: left;
+    height: 130px;
+    width: 40%;
+}
+
+#makechair .summary h3 {
+    padding: 5px;
+    color: #24baa0;
+    text-align: right;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#makechair .summary p {
+    padding: 5px;
+    color: #000;
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#makechair .summaryLeft p,
+#makechair .summaryLeft h3 {
+    text-align: left;
+}
+
+#makechair div.summarySum {
+    width: 100%;
+    height: 46px;
+    border-top: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+    color: #24baa0;
+}
+
+span#summarySum {
+    top: 0;
+    position: static;
+    margin: 0;
+    margin-left: 187px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#makechair input[type="submit"] {
+    background-color: #24baa0;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 30px;
+    border: 0 none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#makechair input[type="submit"]:hover {
+    background-color: #fff;
+    color: #24BAA0;
+    border: 1px solid #ccc;
+}
+
+#makechair input[type="submit"]:active {
+    box-shadow: -1px -1px 2px 0 #555;
+}
+
+
 /*---------- CONTACT ----------*/
 
 #contact {
-    background-color: #fff;
+    background-color: #f1f1f1;
 }
 
 #contact > .container {
@@ -433,7 +591,7 @@ figcaption p {
 }
 
 #contact .title > h3 {
-    padding: 10px 222px 5px 0;
+    padding: 10px 222px 2px 0;
 }
 
 .formLeft {
@@ -588,7 +746,7 @@ footer .container {
 
 .social img:hover {
     -webkit-transform: translateY(-4px);
-	-ms-transform: translateY(-4px);
-	-o-transform: translateY(-4px);
-	transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+    -o-transform: translateY(-4px);
+    transform: translateY(-4px);
 }
