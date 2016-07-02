@@ -329,13 +329,13 @@ figcaption p {
 }
 
 .smallCircle {
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
     background-color: #c2c2c2;
     border-radius: 50%;
     position: absolute;
-    left: 11px;
-    top: 11px;
+    left: 12px;
+    top: 12px;
 }
 
 .pricePlan > h4 {
